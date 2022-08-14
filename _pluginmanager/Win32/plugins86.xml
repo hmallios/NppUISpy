@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
 	<plugin name="NppUISpy">
-		<unicodeVersion>1.0.4</unicodeVersion>
+		<unicodeVersion>1.0.5</unicodeVersion>
 		<description>With this Notepad++ plugin, identify menu command IDs of menu items and toolbar buttons.</description>
 		<author>Andreas Heim</author>
 		<homepage>https://github.com/hmallios/NppUISpy</homepage>
