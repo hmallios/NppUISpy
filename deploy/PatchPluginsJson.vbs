@@ -74,7 +74,7 @@ End If
 strPlatform = objWshShell.ExpandEnvironmentStrings("%Platform%")
 
 'Set target platform platform independent variables
-strRepositoryBaseUrl = "https://github.com/dinkumoil/" & strPluginName
+strRepositoryBaseUrl = "https://github.com/hmallios/" & strPluginName
 strIdKey             = "id"
 strVersionKey        = "version"
 strRepositoryKey     = "repository"
