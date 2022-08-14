@@ -90,7 +90,7 @@ object frmSpy: TfrmSpy
     Height = 25
     Hint = 'Expand all'
     Anchors = [akRight, akBottom]
-    Caption = '-'
+    Caption = '+'
     ParentShowHint = False
     ShowHint = True
     TabOrder = 2
@@ -103,7 +103,7 @@ object frmSpy: TfrmSpy
     Height = 25
     Hint = 'Collapse all'
     Anchors = [akRight, akBottom]
-    Caption = '+'
+    Caption = '-'
     ParentShowHint = False
     ShowHint = True
     TabOrder = 1
