@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+	<plugin name="NppUISpy">
+		<unicodeVersion>1.0.4</unicodeVersion>
+		<description>With this Notepad++ plugin, identify menu command IDs of menu items and toolbar buttons.</description>
+		<author>Andreas Heim</author>
+		<homepage>https://github.com/hmallios/NppUISpy</homepage>
+		<latestUpdate>Fix icon captions for Collapse/Expand All</latestUpdate>
+		<install>
+			<unicode>
+				<download>https://github.com/hmallios/NppUISpy/releases/download/v1.0.5/NppUISpy_v1.0.5_UNI.zip</download>
+				<copy from="NppUISpy.dll" to="$PLUGINDIR$\" validate="true"/>
+				<copy from="doc\NppUISpy.txt" to="$PLUGINDIR$\doc"/>
+			</unicode>
+		</install>
+		<remove>
+			<unicode>
+				<delete file="$PLUGINDIR$\doc\NppUISpy.txt"/>
+			</unicode>
+		</remove>
+	</plugin>
+</plugins>

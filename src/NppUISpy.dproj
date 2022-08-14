@@ -34,7 +34,7 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
-			<VerInfo_Release>4</VerInfo_Release>
+			<VerInfo_Release>5</VerInfo_Release>
 			<PreBuildEvent><![CDATA[cmd /c ".\BuildScripts\PreBuildScript.cmd "$(PROJECTNAME)" $(CONFIG) $(PLATFORM)"
 $(PreBuildEvent)]]></PreBuildEvent>
 			<PostBuildEvent><![CDATA[cmd /c ".\BuildScripts\PostBuildScript.cmd "$(PROJECTNAME)" $(CONFIG) $(PLATFORM)"
